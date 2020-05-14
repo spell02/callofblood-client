@@ -3,11 +3,13 @@ import "./style.css";
 
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-
 import {Amplify, Auth} from "aws-amplify";
+import awsExports from "./aws-exports";
+
 import Application from "./components/Application";
 
 Amplify.configure({
+    ...awsExports,
     Auth: {
         region: "eu-central-1",
         userPoolId: "eu-central-1_sLqI8DYbq",
