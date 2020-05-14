@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "webpack.config.js"
+  ]
+}
