@@ -1,0 +1,41 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-cobclient-dev-195156-authRole",
+            "UnauthRoleArn": "arn:aws:iam::288643086180:role/amplify-cobclient-dev-195156-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::288643086180:role/amplify-cobclient-dev-195156-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-cobclient-dev-195156-deployment",
+            "UnauthRoleName": "amplify-cobclient-dev-195156-unauthRole",
+            "StackName": "amplify-cobclient-dev-195156",
+            "StackId": "arn:aws:cloudformation:eu-central-1:288643086180:stack/amplify-cobclient-dev-195156/9ae2c160-960b-11ea-a931-0264b9b54242",
+            "AmplifyAppId": "d1agaw7zaqggsn"
+        }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-cobclient-prod-200214-authRole",
+            "UnauthRoleArn": "arn:aws:iam::288643086180:role/amplify-cobclient-prod-200214-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::288643086180:role/amplify-cobclient-prod-200214-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-cobclient-prod-200214-deployment",
+            "UnauthRoleName": "amplify-cobclient-prod-200214-unauthRole",
+            "StackName": "amplify-cobclient-prod-200214",
+            "StackId": "arn:aws:cloudformation:eu-central-1:288643086180:stack/amplify-cobclient-prod-200214/0b1eca90-960d-11ea-bb3d-0649b837173a",
+            "AmplifyAppId": "d1agaw7zaqggsn"
+        }
+    },
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-cobclient-test-200305-authRole",
+            "UnauthRoleArn": "arn:aws:iam::288643086180:role/amplify-cobclient-test-200305-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::288643086180:role/amplify-cobclient-test-200305-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-cobclient-test-200305-deployment",
+            "UnauthRoleName": "amplify-cobclient-test-200305-unauthRole",
+            "StackName": "amplify-cobclient-test-200305",
+            "StackId": "arn:aws:cloudformation:eu-central-1:288643086180:stack/amplify-cobclient-test-200305/293bfd40-960d-11ea-9895-0a176ee37dc4",
+            "AmplifyAppId": "d1agaw7zaqggsn"
+        }
+    }
+}
